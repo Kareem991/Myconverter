@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My converter</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="main.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+<body>
+	<script  src="javascript.js"></script>
+	<header>
+		<h1 id="Mytitle">
+			Currency Converter (CC)
+		</h1>
+	</header>
+	<form class="inputs">
+		<p id="text1">USD:</p>	<input type="number" name="USD" Id="1" min="0" oninput="validity.valid||(value='');">
+		<p>EGP:</p>	<input type="number" name="EGP" readonly Id="2">
+	<select id="selection">
+  <option value="USD">Dollars</option>
+  <option value="RUB">Rubles</option>
+	</select>
+	</form>	
+	
+</body>
+</html>
